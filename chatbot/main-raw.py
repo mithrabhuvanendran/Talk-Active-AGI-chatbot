@@ -1,7 +1,7 @@
 import aiml
 import os
 
-kernel = aiml.Kernel()
+kernel = aiml.kernel()
 
 if os.path.isfile("bot_brain.brn"):
     kernel.bootstrap(brainFile = "bot_brain.brn")
